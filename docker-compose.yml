@@ -1,0 +1,7 @@
+services:
+  web:
+    image: nginx:alpine
+    ports:
+      - "6000:80"
+    volumes:
+      - ./wordle.html:/usr/share/nginx/html/index.html:ro
