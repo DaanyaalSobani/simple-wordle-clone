@@ -2,9 +2,11 @@
 
 A clean, browser-based clone of [Wordle](https://www.nytimes.com/games/wordle/index.html) built with vanilla HTML, CSS, and JavaScript — no frameworks, no build step. Served via Docker + Nginx.
 
-**Live demo:** [wordle.dsobani.com](https://wordle.dsobani.com/)
+![Wordle Clone screenshot](assets/screenshot.png)
 
-![screenshot](assets/screenshot.png)
+**[Live Demo →](https://wordle.dsobani.com/)**
+
+---
 
 ## How to Play
 
@@ -15,6 +17,8 @@ A clean, browser-based clone of [Wordle](https://www.nytimes.com/games/wordle/in
    - **Yellow** — right letter, wrong position
    - **Gray** — letter not in the word
 4. The on-screen keyboard tracks which letters you've already used
+
+---
 
 ## Running the Game
 
@@ -29,6 +33,8 @@ Then open [http://localhost:6001](http://localhost:6001) in your browser.
 ## Customizing the Answer Word
 
 Edit the `SECRET` constant near the top of [wordle.html](wordle.html) to any 5-letter word you like.
+
+---
 
 ## How It Works
 
